@@ -1,6 +1,6 @@
 # Reviewer checklist - điền khi kiểm bài người khác
 
-Người gán: ______   Người kiểm: ______   Ngày: ______
+Người gán: Phan Tấn Đạt   Người kiểm: Phan Tấn Đạt   Ngày: ______
 
 Chạy trước khi soi bằng mắt:
 
@@ -12,17 +12,17 @@ python3 tools/visibility_report.py --labels dataset/labels/train --compare <bài
 
 | | Mục kiểm | Đạt? | Ghi chú / ảnh nào |
 | --- | --- | --- | --- |
-| 1 | Mọi người trong ảnh đều có đủ 17 điểm, không ai bị thiếu | ☐ | |
-| 2 | Bật đường nối: không có xương nào cắt chéo ở vai hoặc hông | ☐ | |
-| 3 | Không có xương nào kéo dài sang một cơ thể khác | ☐ | |
-| 4 | Khớp bị che dùng `v = 1` **và có chấm**, không phải `v = 0` | ☐ | |
-| 5 | `v = 0` chỉ xuất hiện ở khớp thật sự ra ngoài mép ảnh | ☐ | |
-| 6 | Không có dấu hiệu dùng `Hidden` (điểm `v = 2` nằm ở chỗ vô lý) | ☐ | |
-| 7 | Export đúng **COCO Keypoints 1.0**: mảng `keypoints` có 51 số mỗi người | ☐ | |
-| 8 | Bản YOLO Pose: mỗi dòng 56 số, `kpt_shape: [17, 3]` | ☐ | |
-| 9 | Visibility report đã nộp, và hai bảng đã được đặt cạnh nhau | ☐ | |
-| 10 | Mọi ca không rõ đều được ghi trong `GUIDELINE_MINI.md` | ☐ | |
-| 11 | `check_pose_labels.py` chạy 0 lỗi | ☐ | |
+| 1 | Mọi người trong ảnh đều có đủ 17 điểm, không ai bị thiếu | X | |
+| 2 | Bật đường nối: không có xương nào cắt chéo ở vai hoặc hông | X | |
+| 3 | Không có xương nào kéo dài sang một cơ thể khác | X | |
+| 4 | Khớp bị che dùng `v = 1` **và có chấm**, không phải `v = 0` | X | |
+| 5 | `v = 0` chỉ xuất hiện ở khớp thật sự ra ngoài mép ảnh | X | |
+| 6 | Không có dấu hiệu dùng `Hidden` (điểm `v = 2` nằm ở chỗ vô lý) | X | |
+| 7 | Export đúng **COCO Keypoints 1.0**: mảng `keypoints` có 51 số mỗi người | X | |
+| 8 | Bản YOLO Pose: mỗi dòng 56 số, `kpt_shape: [17, 3]` | X | |
+| 9 | Visibility report đã nộp, và hai bảng đã được đặt cạnh nhau | X | |
+| 10 | Mọi ca không rõ đều được ghi trong `GUIDELINE_MINI.md` | X | |
+| 11 | `check_pose_labels.py` chạy 0 lỗi | X | |
 
 ## Lỗi tìm được
 
